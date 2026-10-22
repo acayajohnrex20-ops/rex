@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#09090b" />
+  <meta name="description"
+    content="John Rex — IT student portfolio featuring technical skills, projects, certificates, and professional development." />
+
+  <title>Johnrex Acaya | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a href="#home" class="brand" aria-label="John Rex homepage">
+        <span class="brand-mark">
+          J<span>A</span><i>.</i>
+        </span>
+        <span class="brand-label">
+          PORTFOLIO
+          <small>© 2026</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-controls="navLinks" aria-expanded="false"
+        aria-label="Open navigation">
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#development" class="nav-link">Development</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <a class="nav-action" href="#contact">
+        Let's talk <span aria-hidden="true">↗</span>
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME SECTION -->
+    <section class="hero section" id="home">
+
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+
+        <!-- LEFT SIDE -->
+        <div class="hero-copy reveal">
+
+          <div class="eyebrow">
+            <span class="pulse-dot"></span>
+            WELCOME TO MY WEBSITE PORTFOLIO
+            <span class="eyebrow-line"></span>
+            01 / 06
+          </div>
+
+          <h1>
+            JOHNREX<br>
+            <span class="text-outline">FERN</span>ANDO<br>
+            <span class="red-text">
+              ACAYA<span class="period">.</span>
+            </span>
+          </h1>
+
+          <p class="hero-lead">
+            Hey, I'm <strong>Johnrex</strong> —
+            an aspiring IT Student passionate about
+            crafting meaningful digital experiences
+            through code, creativity, and continuous
+            learning.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a class="btn btn-red" href="#projects">
+              Explore my work <span>↗</span>
+            </a>
+
+            <a class="btn btn-outline" href="#about">
+              Get to know me <span>↓</span>
+            </a>
+
+          </div>
+
+          <div class="hero-bottom">
+
+            <div class="avatar-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+
+            <span class="muted-small">
+              Design-driven. Code-focused.
+              Always learning.
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDE: PROFILE PHOTO -->
+        <div class="hero-visual reveal delay-1" aria-label="Johnrex Acaya professional portrait">
+
+          <!-- Background animation -->
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit-cross">✳</div>
+
+          <!-- Top floating badge -->
+          <div class="floating-chip chip-top">
+            <span class="chip-icon">✦</span>
+            CREATIVE THINKER
+          </div>
+
+          <!-- Main photo window -->
+          <div class="dev-window tilt-card" id="heroCard">
+
+            <!-- Window header -->
+            <div class="window-header">
+
+              <div class="traffic">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+              <span></span>
+              <span class="window-menu">•••</span>
+
+            </div>
+
+            <!-- Profile picture -->
+            <div class="hero-photo-body">
+
+              <img src="images/profile1.jpg" alt="Johnrex Fernando Acaya" class="hero-portrait" />
+
+              <!-- Photo overlay -->
+              <div class="hero-photo-caption">
+
+                <h2>JOHNREX ACAYA</h2>
+
+                <p>
+                  IT Student | Web Developer
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Window footer -->
+            <div class="window-footer">
+
+              <span>
+                <i class="status-light"></i>
+                Always Learning
+              </span>
+
+              <span>
+                CREATIVE PORTFOLIO
+              </span>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom floating badge -->
+          <div class="floating-chip chip-bottom">
+            <span class="chip-icon">⌘</span>
+            CODE × DESIGN
+          </div>
+
+          <!-- Decorative background -->
+          <span class="giant-backdrop" aria-hidden="true">JA</span>
+
+        </div>
+
+      </div>
+
+      <div class="hero-rail container">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="arrow-down">↓</span>
+        <span>
+          OPEN TO LEARNING & COLLABORATION
+        </span>
+      </div>
+
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        WEB DEVELOPMENT <b>✳</b>
+        CREATIVE PROBLEM SOLVING <b>✳</b>
+        UI / UX DESIGN <b>✳</b>
+        PROFESSIONAL GROWTH <b>✳</b>
+        WEB DEVELOPMENT <b>✳</b>
+        CREATIVE PROBLEM SOLVING <b>✳</b>
+        UI / UX DESIGN <b>✳</b>
+        PROFESSIONAL GROWTH <b>✳</b>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <section class="section content-section" id="about">
+
+      <div class="container">
+
+        <div class="section-intro reveal">
+
+          <span class="section-num">
+            01 / ABOUT ME
+          </span>
+
+          <h2>
+            MORE THAN<br>
+            <em>JUST CODE.</em>
+          </h2>
+
+          <p>
+            A little about the person behind the screen.
+          </p>
+
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-feature reveal">
+
+            <div class="monogram-card profile-card">
+
+              <span class="monogram-lines">
+                &lt; <i>/</i> &gt;
+              </span>
+
+              <div class="profile-image-container">
+
+                <img src="images/profile.png" alt="Johnrex Acaya Profile Picture" class="profile-image" />
+
+              </div>
+
+              <span class="monogram-label">
+                CREATING • LEARNING • GROWING
+              </span>
+
+            </div>
+
+          </div>
+
+          <div class="about-text reveal delay-1">
+
+            <span class="mini-label">
+              WHO AM I?
+            </span>
+
+            <h3>
+              Curious by nature.<br>
+              <span>Developer by choice.</span>
+            </h3>
+
+            <p>
+              I'm Johnrex Fernando Acaya, an
+              Information Technology student with
+              an interest in turning complex
+              challenges into simple, useful
+              digital solutions. I enjoy learning
+              new technologies, experimenting
+              with interfaces, and improving my
+              programming skills through
+              hands-on projects.
+            </p>
+
+            <p>
+              This portfolio documents my academic
+              work, growing technical abilities,
+              and professional development
+              activities from seminars and
+              training to real projects and
+              practical experiences.
+            </p>
+
+            <div class="about-facts">
+
+              <div>
+                <span>FOCUS</span>
+                <strong>
+                  Software & Web Development
+                </strong>
+              </div>
+
+              <div>
+                <span>EDUCATION</span>
+                <strong>
+                  Information Technology Student
+                </strong>
+              </div>
+
+              <div>
+                <span>APPROACH</span>
+                <strong>
+                  Learn · Build · Improve
+                </strong>
+              </div>
+
+            </div>
+
+            <a class="text-link" href="#contact">
+              Let's connect <span>↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section content-section skills-section" id="skills">
+
+      <div class="container">
+
+        <div class="section-intro reveal">
+
+          <span class="section-num">
+            02 / MY TOOLKIT
+          </span>
+
+          <h2>
+            SKILLS &<br>
+            <em>TECHNOLOGIES.</em>
+          </h2>
+
+          <p>
+            Tools I'm exploring and using to
+            bring ideas to life.
+          </p>
+
+        </div>
+
+        <div class="skills-layout">
+
+          <div class="skills-description reveal">
+
+            <span class="mini-label">
+              THE CRAFT
+            </span>
+
+            <h3>
+              Ideas are good.<br>
+              <span>Execution matters.</span>
+            </h3>
+
+            <div class="skill-quote">
+              “Great things are done by a series
+              of small things brought together.”
+              <span>— Vincent van Gogh</span>
+            </div>
+
+          </div>
+
+          <div class="skill-grid" id="skillGrid" aria-label="Technical skills">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section content-section projects-section" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading-row reveal">
+
+          <div class="section-intro">
+
+            <span class="section-num">
+              03 / SELECTED WORK
+            </span>
+
+            <h2>
+              FEATURED<br>
+              <em>PROJECTS.</em>
+            </h2>
+
+          </div>
+
+
+        </div>
+
+        <div class="filter-bar reveal" id="projectFilters" role="group" aria-label="Filter projects">
+
+          <button class="filter active" data-filter="all" aria-pressed="true">
+            ALL PROJECTS
+          </button>
+
+          <button class="filter" data-filter="web" aria-pressed="false">
+            WEB APPS
+          </button>
+
+          <button class="filter" data-filter="systems" aria-pressed="false">
+            SYSTEMS
+          </button>
+
+          <button class="filter" data-filter="mobile" aria-pressed="false">
+            MOBILE
+          </button>
+
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- PROFESSIONAL DEVELOPMENT -->
+    <section class="section content-section dev-section" id="development">
+
+      <div class="container">
+
+        <div class="section-heading-row reveal">
+
+          <div class="section-intro">
+
+            <span class="section-num">
+              04 / PROFESSIONAL DEVELOPMENT
+            </span>
+
+            <h2>
+              ALWAYS<br>
+              <em>EVOLVING.</em>
+            </h2>
+
+          </div>
+        </div>
+
+        <div class="development-tabs reveal" role="group" aria-label="Filter certificates" id="certificateFilters">
+
+          <button class="filter active" data-filter="all" aria-pressed="true">
+            ALL
+          </button>
+
+          <button class="filter" data-filter="seminar" aria-pressed="false">
+            SEMINAR
+          </button>
+
+          <button class="filter" data-filter="cisco" aria-pressed="false">
+            CISCO
+          </button>
+
+          <button class="filter" data-filter="webinar" aria-pressed="false">
+            WEBINAR
+          </button>
+
+          <button class="filter" data-filter="tesda" aria-pressed="false">
+            TESDA
+          </button>
+
+          <button class="filter" data-filter="microsoft learn" aria-pressed="false">
+            MICROSOFT LEARN
+          </button>
+
+        </div>
+
+        <!-- Certificates generated by JavaScript -->
+        <div class="certificate-grid" id="certificateGrid">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section content-section achievements-section" id="achievements">
+
+      <div class="container">
+
+        <div class="section-intro reveal">
+
+          <span class="section-num">
+            05 / MILESTONES
+          </span>
+
+          <h2>
+            THE JOURNEY<br>
+            <em>SO FAR.</em>
+          </h2>
+
+          <p>
+            Every experience is an opportunity
+            to grow.
+          </p>
+
+        </div>
+
+        <div class="timeline" id="achievementTimeline">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section content-section contact-section" id="contact">
+
+      <div class="contact-halo" aria-hidden="true"></div>
+
+      <div class="container contact-inner reveal">
+
+        <span class="section-num">
+          06 / GET IN TOUCH
+        </span>
+
+        <h2>
+          LET'S MAKE<br>
+          <em>SOMETHING</em><br>
+          GREAT<span class="period">.</span>
+        </h2>
+
+        <p>
+          Have a project, collaboration, or
+          an idea to discuss? I'd love to connect.
+        </p>
+
+        <div class="contact-actions">
+
+          <button class="btn btn-red" id="emailButton" type="button">
+
+            acayajohnrex20@gmail.com
+            <span>↗</span>
+
+          </button>
+
+          <a href="resume.pdf" download="resume.pdf" class="btn btn-outline" id="resumeButton">
+
+            Download resume
+            <span>↓</span>
+
+          </a>
+
+        </div>
+
+        <div class="social-links" id="socialLinks">
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-inner">
+
+      <a class="brand" href="#home">
+        <span class="brand-mark">
+          J<span>R</span><i>.</i>
+        </span>
+      </a>
+
+      <span>
+        DESIGNED & BUILT WITH
+        <strong>♥</strong> BY JOHNREX
+      </span>
+
+      <a href="#home">
+        BACK TO TOP ↑
+      </a>
+
+      <span>
+        © <span id="year"></span>
+        ALL RIGHTS RESERVED.
+      </span>
+
+    </div>
+
+  </footer>
+
+  <!-- CERTIFICATE MODAL -->
+  <dialog class="cert-dialog" id="certificateModal" aria-label="Certificate preview">
+
+    <button class="modal-close" id="closeCertificate" aria-label="Close preview">
+      ×
+    </button>
+
+    <div id="modalContents"></div>
+
+  </dialog>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+  </div>
+
+</body>
+
+</html>
